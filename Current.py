@@ -118,7 +118,7 @@ class player:
         print("Stocks : " + str(self.stock*float(history[len(history) - 1])))
         print("Total : " + str(self.cash + self.stock*float(history[len(history) - 1])))
 
-stocks = pd.read_csv('amex_08_20.csv')
+stocks = pd.read_csv('nasdaq_08_20.csv')
 
 for i in range(0, len(stocks.index)):
     print(stocks.iat[i,1])
