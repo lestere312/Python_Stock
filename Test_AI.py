@@ -1,6 +1,6 @@
 import yfinance as yf
 import pandas as pd
-#import tensorflow as tf
+import tensorflow as tf
 import math
 from datetime import datetime
 from matplotlib import pyplot as plt
